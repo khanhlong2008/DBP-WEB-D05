@@ -1,0 +1,38 @@
+*forEach vs for : 
+	+khác nhau : 
+		-forEach k thể break khi cần và nó k return và output :(undefine)
+		-for có thể break khi cần và có thể return.
+	+giống nhau:
+		-lặp qua các item(index) của mảng
+	+ex: 
+	const arr = [1,2,3,4,5]
+	const forEach = arr.forEach((item)=>{
+		clg(item);
+	});
+
+*forEach vs  map :
+	+khác nhau :
+		-map: biến đổi các item của arr vs obj theo một công thức do dev định nghĩa.
+
+*push vs concat 
+	-khác nhau: 
+		- push thêm trực tiếp vào sau mảng đã cho 
+		- concat tạo ra mảng mới nối mảng củ và data của của mảng mới 
+*rest operator ES6
+	-cú pháp: ...arr
+		thêm 1 phần tử : const restArr = [...arr,6]
+* Spead operator
+	- cú pháp: const obj = {
+			...arr,
+			date:new Date();
+			// thứ tự sắp xếp ưu tiên xuất hiện cuối cùng sẽ đc overright(ghi đè cái đc overright đc viết trước nó). 
+		   }
+* datatypes
+- primitive datatypes (kiểu data tham trị)
+    number,
+    string,
+    boolen,
+    null,
+    undefine,
+- reference datatypes (kiểu data tham chiếu)
+    obj,
