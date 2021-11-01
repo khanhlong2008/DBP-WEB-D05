@@ -1,0 +1,2 @@
+{ $or:[{status:"A"},{qty:100}]}
+{status: {$in:["A","D"]} }
