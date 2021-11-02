@@ -1,5 +1,5 @@
 const express = require("express");
-
+const logger = require("../middlewares/logger");
 const router = express.Router();
 
 const students = [
@@ -8,10 +8,7 @@ const students = [
   { id: 3, name: "Cris", age: "23" },
 ];
 
-const logger = (req, res, next) => {
-  console.log("New req at" + new Date());
-  next();
-};
+
 
 router.use(logger)
 
