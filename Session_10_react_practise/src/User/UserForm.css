@@ -1,0 +1,23 @@
+.user-form{
+    margin: 10px auto;
+    background-color:#95daec;
+    max-width: 400px;
+    box-sizing: border-box;
+}
+.user-from__control{
+    display: flex;
+    margin: 5px 0px;
+    flex-direction: column;
+}
+.user-from__lable{
+    color: white;
+    margin-bottom: 3px;
+}
+.user-name__input{
+    border:none;
+    outline: none;
+    width: 100%;
+    border-radius: 10px;
+    padding:3px 5px;
+    display: block;
+}
