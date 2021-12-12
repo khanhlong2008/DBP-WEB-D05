@@ -1,0 +1,12 @@
+.student-list-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:600px;
+}
+
+.student-list-body{
+    width:700px;
+    height:400px;
+    
+}
